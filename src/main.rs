@@ -1,5 +1,5 @@
 fn main() {
-    let board = [["x"; 3]; 3];
+    let board = [[" "; 3]; 3];
 
     for row in board {
         for cell in row {
