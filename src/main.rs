@@ -1,22 +1,8 @@
 use std::fmt;
 
 fn main() {
-    // let mut board = [[' '; 3]; 3];
-    // print_board(&board);
-    // board[1][2] = 'x';
-    // println!();
-    // print_board(&board);
     let mut board = Board::new();
     print!("{board}");
-}
-
-fn print_board(board: &[[char; 3]; 3]) {
-    for row in board {
-        for cell in row {
-            print!("|{cell}");
-        }
-        println!("|");
-    }
 }
 
 struct Board {
